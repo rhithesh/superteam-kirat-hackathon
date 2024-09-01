@@ -49,8 +49,8 @@ export default function Page() {
              </div>
             <button className="bg-[#14f195] px-5 py-1 rounded-full m-5 text-sm" onClick={handleClick}>{loading ? "Loading..." : "Submit"}</button>
         </div>
-
-      <div className="mt-10 flex flex-col items-center justify-center gap-5 bg-green-500 p-5">
+      <h2 className="text-sm text-gray-400 p-1 mt-10 flex items-center justify-center"> Add the below to OBS </h2>
+      <div className="flex flex-col items-center gap-5 bg-green-500 h-screen p-5">
         {data.map((transaction, index) => (
           <div key={index} className="flex gap-5 items-center justify-center w-2/3 bg-[#0e0e0e] rounded-lg p-5 border-[0.5px] border-gray-800">
             <span className="text-white">{transaction.type==="Transfer" ? "Swap" : "Thank you for :"}</span>
