@@ -15,7 +15,7 @@ export default function Home() {
             <h2 className="text-[#fafafa] opacity-30 mt-5">
               Stream smarter with our real-time Solana donation tracker. Receive instant updates on wallet transactions and seamlessly display them on your OBS feed, creating a more engaging and transparent experience for your viewers and supporters.
             </h2>
-            <Link href="/"><button className="bg-[#0a0a0a] from px-5 py-1 rounded-full border-[0.5px] border-gray-700 mt-5 bg-gradient-to-r from-[#9945ff] to-[#14f195]" ><span className="flex items-center gap-1 font-bold text-[#0e0e0e]">Try Now<RArrow /></span></button></Link>
+            <Link href="/overlay"><button className="bg-[#0a0a0a] from px-5 py-1 rounded-full border-[0.5px] border-gray-700 mt-5 bg-gradient-to-r from-[#9945ff] to-[#14f195]" ><span className="flex items-center gap-1 font-bold text-[#0e0e0e]">Try Now<RArrow /></span></button></Link>
           </BlurFade>
         </div>
       </div>

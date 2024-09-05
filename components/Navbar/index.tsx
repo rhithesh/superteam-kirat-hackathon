@@ -10,8 +10,6 @@ export default function Navbar() {
       <Link href="/"><h2 className='text-lg text-[#fafafa] hover:opacity-70 hover:scale-105 transition-all'>Home</h2></Link>
       <span className='opacity-50 text-white'>|</span>
       <Link href="/overlay"><h2 className='text-lg text-[#fafafa] hover:opacity-70 hover:scale-105 transition-all'>Get your overlay</h2></Link>
-      <span className='opacity-50 text-white'>|</span>
-      <h2 className='text-lg text-[#fafafa] hover:opacity-70 hover:scale-105 transition-all'>How to use</h2>
       </div>
     </div>
   )
